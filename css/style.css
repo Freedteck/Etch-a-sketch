@@ -22,14 +22,18 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;   
-    width: 350px;
-    height: 350px;
+    width: 80vw;
+    height: 40vh;
 }
 
 .square {
     width: calc(100% / var(--size));
     height: calc(100% / var(--size));
-    border: 1px solid black;
+    border: 1px solid darkgrey;
+}
+
+.hovered:hover {
+    background-color: var(--bg);
 }
 
 h1 {
