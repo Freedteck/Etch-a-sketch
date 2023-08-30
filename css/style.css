@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: curvy;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;   
+    width: 350px;
+    height: 350px;
+}
+
+.square {
+    width: calc(100% / var(--size));
+    height: calc(100% / var(--size));
+    border: 1px solid black;
+}
